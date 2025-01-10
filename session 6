@@ -1,1 +1,27 @@
+# Session 6: Computer Operating Systems
+
+In this session, we discussed **computer operating systems** and their role in managing both software and hardware to perform tasks.
+
+---
+
+## Examples of Operating Systems:
+- **Microsoft Windows**
+- **Linux**
+
+---
+
+## Role of the Operating System
+
+The **operating system (OS)** manages and controls computer software and hardware to perform tasks efficiently. It acts as an intermediary between users and the computer hardware, ensuring that resources are allocated and utilized effectively.
+
+---
+
+## Multitasking and Process Management
+
+- **Multitasking Illusion**:  
+  Modern computers give the illusion of multitasking, but the reality is that the operating system manages CPU time by rapidly switching between processes. This process is called **time-sharing**.
+
+- **CPU Time Management**:  
+  The OS’s **scheduler** manages processes by switching between them, storing their states (Program Counter (PC), Link Register (LR), and Stack Pointer (SP)) dur
+
 
