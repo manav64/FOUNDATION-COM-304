@@ -1,1 +1,94 @@
+# Session 2
+
+## Overview
+
+In this week, we focused on the **basic principles of computer architecture**. We started by learning about the **classic Von-Neumann architecture**.
+
+### Basic Input-Process-Output System
+
+The basic **input-process-output** system includes:
+- **External mass storage**
+- **Control units**
+- **Instruction registers**
+
+### Typical Non-Von Neumann Architecture
+
+A typical non-Von Neumann architecture consists of **three buses**:
+
+1. **Data Bus**:
+   - Moves data efficiently within the system.
+   - **Bi-directional** (data can move both ways).
+
+2. **Control Bus**:
+   - Carries control signals to manage CPU operations.
+   - **Bi-directional**.
+
+3. **Address Bus**:
+   - Specifies the memory location.
+   - **Uni-directional** (data flows in one direction).
+
+## Types of Memory
+
+### On-CPU Memory
+
+#### Disadvantages:
+1. Small size.
+2. Expensive.
+
+#### Advantages:
+1. Extremely fast.
+2. Low latency.
+
+#### Types:
+1. **Registers**
+2. **Cache Memory**
+
+### Off-CPU Memory
+
+#### Disadvantages:
+1. Slower.
+2. High latency.
+
+#### Advantages:
+1. Larger capacity.
+2. Cost-effective.
+
+#### Types:
+1. **ROM**
+2. **Hard Drive**
+
+## CPU Types
+
+There are two main types of CPUs:
+
+1. **RISC** (Reduced Instruction Set Computer)
+   - Example: **Raspberry Pi**
+
+2. **CISC** (Complex Instruction Set Computer)
+   - Example: **Intel Processor**
+
+## Logic Gates and Binary Operations
+
+We also learned about the following **gates** and their **binary operations**:
+
+- **NOT Gate**
+- **NAND Gate**
+- **AND Gate**
+- **OR Gate**
+- **NOR Gate**
+- **XOR Gate**
+- **XNOR Gate**
+
+We worked on creating **truth tables** for these gates and discussed how smaller gates are used to create complex operations within the CPU.
+
+## Floating Point and Two-Component Systems
+
+We explored the concept of **floating point** representation and its two components.
+
+## Binary Operations
+
+We also practiced different **binary operations**, including:
+1. **Decimal to Hexadecimal Conversion** and vice versa.
+2. **Binary multiplication** and **division** exercises were done in class.
+
 
