@@ -1,1 +1,70 @@
+# Session 8: Origin of the Linux Operating System
 
+In this session, we learned about the **origin** of the **Linux** operating system and its evolution.
+
+---
+
+## Origin of Linux
+
+- **Linux** is an open-source operating system that was initially developed in **1991** by **Linus Torvalds**.
+- The first official version of Linux was **released on March 14, 1994**.
+- Linux quickly gained popularity due to its flexibility, adaptability, and open-source nature, leading to its widespread adoption.
+- Over time, Linux grew in prominence, especially in the context of the **cloud** and **internet services**, which helped it become the backbone of many modern technologies.
+
+---
+
+## Key Features of Linux
+
+### **Linux Services**:
+Linux provides many services, making it more flexible and adaptable than other operating systems like Windows. 
+
+- **Kernel**: The core of the operating system, responsible for essential services.
+  - **Services Provided by the Kernel**:
+    1. **Scheduling**: Manages the CPU's time and resources.
+    2. **Device Drivers**: Allows the OS to communicate with hardware devices.
+    3. **Virtual Memory Management**: Handles virtual memory to give the illusion of more RAM.
+
+- **File Permissions**:  
+  Linux has a security model that ensures proper access control over files and directories.  
+  - **Roles**:
+    - **Owner**: The user who owns the file.
+    - **Groups**: Users grouped together for shared permissions.
+    - **All Users**: Permissions granted to everyone.
+
+---
+
+## User Interface
+
+- **X Windows System**:  
+  The graphical user interface (GUI) used by **Unix** and **Linux** systems.
+  
+- **Wayland**:  
+  A newer display server protocol that is increasingly used on Linux systems, replacing X11.
+
+---
+
+## Boot System Software
+
+The **boot process** refers to the series of steps that load the operating system into memory and start it.
+
+1. **BIOS** (Basic Input/Output System):  
+   - Provides configuration functions without loading the operating system.
+   - Guides the system on which hardware is installed and ensures the system is ready to boot.
+   
+2. **Boot Loader**:  
+   - The boot loader loads the operating system from the disk into memory. It prepares the system for use.
+   - The **GRUB** (Grand Unified Bootloader) is commonly used in Linux to load the operating system.
+
+   **Note**: **GRUB** is not used in Raspberry Pi because it does not have a BIOS and has a simpler boot process.
+
+---
+
+## Installing Apache 2 Web Server on Raspberry Pi
+
+In this session, we also installed the **Apache 2 Web Server** on the **Raspberry Pi** to enable web hosting capabilities.
+
+--- 
+
+### Conclusion
+
+The **Linux** operating system has a rich history and continues to grow due to its flexibility and suitability for cloud computing, servers, and embedded systems like the Raspberry Pi. Its robust kernel, file permission system, and user interface options make it a powerful choice for various applications.
