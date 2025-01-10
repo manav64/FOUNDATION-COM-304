@@ -1,1 +1,56 @@
+# Session 1
+
+## Overview
+
+In the first week, we began our class by discussing the **history of computers** and explored **mechanical calculators** and **mechanical computers**.
+
+We also learned about **Git** and **GitHub**, covering topics such as guides, uses, types, and features. We started by creating a **personal GitHub account**.
+
+## Uses of GitHub
+
+1. GitHub is used by organizations to **host their code**.
+2. It includes various **project planning tools** such as:
+   - **Package releasing**
+   - **Website hosting**
+   - **Issue and pull request management**
+
+## Types of Repositories on GitHub
+
+1. **Default (Public Repository)**:
+   - Can be viewed by others but **cannot be modified**.
+2. **Private Repository**:
+   - Only accessible to the repository owner and collaborators.
+
+## Features of GitHub
+
+1. **Forking**: You can fork a repository to make your own copy of it.
+2. **Collaboration**: You can work on a project in collaboration with others.
+3. **Personal Learning Record**: You can create a personal learning record on GitHub.
+
+### GitHub Markdown for Learning Records
+
+- To create a personal learning record, you can use **GitHub Markdown**.
+- Markdown is easier than HTML and can be used for writing **webpages** and **documentation**.
+- Markdown is also useful for submitting assignments and keeping track of your learning progress.
+
+## Raspberry Pi
+
+We also learned about the **Raspberry Pi** and how to install it on a computer.
+
+### What is Raspberry Pi?
+
+- **Raspberry Pi** is a small, affordable computer that helps to explore **computer architecture**.
+- The **Raspberry Pi 2B** is the most commonly used version.
+
+### Setting up Raspberry Pi:
+
+1. **Download** the necessary software.
+2. Set up your **username** and **password**.
+3. Connect to the computer via **HDMI**.
+4. Attach the **mini USB** for power.
+5. Connect to the **Wi-Fi** (eudoram is required).
+6. To shut down:
+   - You can use the **terminal**, or
+   - Simply **unplug** the device.
+
 
