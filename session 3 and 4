@@ -1,1 +1,93 @@
+# Session 3 & 4
+
+## Overview
+
+In these sessions, we delved deeper into **computer architecture** and gained more insight into **Raspberry Pi** and how it interacts with the outside world.
+
+The Raspberry Pi consists of several components, but the **heart** of the Pi is the **BoardCam**, which is the **System on Chip (SoC)** and contains 4 CPU cores. 
+
+### Main Components of the Raspberry Pi:
+1. **Memory Unit**
+2. **GPU (Graphics Processing Unit)**
+3. **USB Ports**
+4. **GPIO (General Purpose Input/Output)**
+
+---
+
+## More on GPIO (General Purpose Input/Output)
+
+- The **GPIO** on the Raspberry Pi has **40 pins** for input and output.
+- Each pin is labeled from **GPIO-0** to **GPIO-25**, and each pin has a specific function. Some pins are used for **serial ports** or **clocks**.
+- **GPIO** allows flexibility to control and communicate with external devices.
+
+### Programming GPIO:
+Programming with GPIO can be complex, and to make it easier, several tools are used. Apps like **Node-RED** can be used to interact with GPIO and control external devices, such as lights.
+
+---
+
+## Experimenting with GPIO and Raspberry Pi
+
+To experiment with GPIO and Raspberry Pi, we use the **Gertboard**, which simplifies the GPIO programming process.
+
+### What is Gertboard?
+The **Gertboard** is a **pre-assembled input/output board** designed to facilitate GPIO experiments with the Raspberry Pi.
+
+### What is WiringPi?
+**WiringPi** is a software library that simplifies GPIO manipulation in the Raspberry Pi.
+
+To use **WiringPi**, you need to install the **32-bit package** on the Pi. Since the network was slow, we downloaded the package from **GitHub** and installed it via USB.
+
+---
+
+## Setting Up the Gertboard and WiringPi
+
+### Gertboard Setup:
+
+We connected the **Gertboard** to the Raspberry Pi using a **ribbon cable** and the GPIO pins. Below is how the GPIO pins on the Raspberry Pi map to the WiringPi pins:
+
+| **GPIO Pin** | **WiringPi Pin (WPI)** |
+|--------------|------------------------|
+| GPIO-21      | WPI 29                 |
+| GPIO-18      | WPI 1                  |
+| GPIO-17      | WPI 0                  |
+| GPIO-10      | WPI 12                 |
+| GPIO-9       | WPI 13                 |
+| GPIO-8       | WPI 10                 |
+| GPIO-7       | WPI 11                 |
+| GPIO-4       | WPI 7                  |
+
+We connected the **GP Link** to **J2** on the Gertboard.
+
+### GPIO Pin Connections for Gertboard:
+
+| **GPIO Pin** | **Gertboard Pin** |
+|--------------|-------------------|
+| GP25         | B1                |
+| GP24         | B2                |
+| GP23         | B3                |
+| GP22         | B4                |
+| GP21         | B5                |
+| GP18         | B6                |
+| GP17         | B7                |
+| GP15         | B8                |
+| GP14         | B9                |
+| GP11         | B10               |
+| GP10         | B11               |
+| GP9          | B12               |
+
+---
+
+## Testing Input and Output
+
+### GPIO Commands:
+- To test the GPIO pins, use the command:
+  ```bash
+  gpio readall
+### Testing GPIO Input and Output
+
+- To **blink an LED** connected to GPIO pin 22, use the following command:
+  ```bash
+  gpio -g blink 22
+
+**Note**: Before setting the pin to **output mode**, make sure to first set it to **input mode**.
 
