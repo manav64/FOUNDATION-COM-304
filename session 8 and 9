@@ -1,1 +1,29 @@
+# **Session 8 and 9: Introduction to Networking**
+
+In this session, we learned about networking and how devices connect to the internet.
+
+## **IP Addressing and Communication**
+- Computers use **IP addresses** to communicate with each other, breaking the address into separate bytes.
+- **Routers** play a crucial role in connecting devices and routing packets across networks to their final destinations.
+
+## **Network Protocol Layers**
+A **network protocol** is a set of rules and conventions that enable devices on a network to communicate with each other. Each layer in the protocol stack has its own protocol, and in a well-designed system, these protocols work together.
+
+### **OSI 7-Layer Model**
+The **OSI (Open Systems Interconnection)** 7-layer model is one of the most comprehensive models for understanding network communication.
+
+1. **Application Layer (Layer 7)**
+   - The Application Layer defines how data is transferred to make specific applications work.
+   - **Examples**: HTTP, SSH, FTP
+   
+2. **Transport Layer (Layer 4)**
+   - The Transport Layer defines the quality and management of the data connection between the application and its destination.
+   
+3. **Network Layer (Layer 3)**
+   - The Network Layer is used for communication across a network consisting of multiple link layer segments. It manages the routing and forwarding of data.
+
+4. **Link Layer (Layer 2)**
+   - The Link Layer is responsible for local, point-to-point communication, where devices send signals directly to each other over a physical medium.
+   - It connects separate link layer segments to form an end-to-end network.
+
 
