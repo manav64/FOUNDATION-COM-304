@@ -1,1 +1,93 @@
+# Session 5: How Computer Hardware is Linked with Computer Languages
+
+In this session, we discussed the connection between **computer hardware** and **computer languages**.
+
+---
+
+## Machine Code
+
+- **Definition**:  
+  Machine code is a **low-level language** that consists of **binary instructions** (1s and 0s), directly understood by the **CPU**.
+  
+- **Other Names**:  
+  It is also known as **native code** or **binary code**.
+  
+  In the classroom, examples of **binary values** and their descriptions were presented to better understand how machine code works.
+
+---
+
+## Assembly Language
+
+- **Definition**:  
+  Assembly language is a low-level programming language that uses **mnemonics** (such as `MOV`, `ADD`, `JMP`) to represent machine-level instructions.
+  
+- **Function**:  
+  Assembly language acts as a translator between **human-readable instructions** and **machine-readable code**. It translates mnemonics into the corresponding binary code that a computer can understand.
+
+---
+
+## Assembly Code
+
+- **Definition**:  
+  Assembly code is a **low-level programming language** used to write programs that can be **directly understood by the computer's CPU**.
+  
+- **Purpose**:  
+  It is designed for programmers to **move and manipulate data** within the **processor**, **registers**, and **external memory**. It provides a way to directly control hardware operations.
+
+---
+
+## High-Level Language
+
+- **Definition**:  
+  High-level languages are programming languages that are designed to be easily understood by **humans**. They abstract away low-level hardware details.
+  
+- **Examples**:  
+  - **C**
+  - **JavaScript**
+  - **Python**
+  
+- **Function**:  
+  High-level languages allow programmers to write programs that focus on high-level logic without worrying about machine-specific details. These programs are eventually translated into low-level code to run on a computer.
+
+---
+
+## Types of Languages
+
+### 1. Interpreted Language
+- **Definition**:  
+  An interpreted language is one where the **instructions are executed by an interpreter** instead of being compiled into machine code.
+  
+- **Process**:  
+  The code is not directly converted into machine code. Instead, it needs to be translated from **assembly** to **machine code** via an interpreter at runtime.
+
+### 2. Compiled Language
+- **Definition**:  
+  A compiled language is one where the source code is **translated into machine code by a compiler** before it is executed by the computer.
+  
+- **Process**:  
+  It is not directly executed but must first be translated from **high-level code** into **assembly code** and then into **machine code** before execution.
+
+---
+
+## Types of Software Programs
+
+### 1. Closed Source Software
+- **Definition**:  
+  Closed source software is where the **machine code is compiled into assembly code**, which is often difficult to understand.
+  
+- **Protection**:  
+  To protect their intellectual property and prevent reverse engineering, companies typically do not distribute the original source code along with the machine code. This is referred to as **closed-source**.
+
+### 2. Open Source Software
+- **Definition**:  
+  In open-source software, companies share the **original source code** along with the **machine code**.
+  
+- **Transparency**:  
+  This makes the code freely available for modification and redistribution, promoting transparency and collaboration.
+
+---
+
+## Conclusion
+
+In this session, we explored the relationship between computer hardware and the different types of programming languages. We discussed **machine code**, **assembly language**, and **high-level languages**, as well as the differences between **interpreted** and **compiled languages**. Finally, we reviewed the concepts of **open-source** and **closed-source** software, highlighting their respective approaches to protecting or sharing source code.
 
